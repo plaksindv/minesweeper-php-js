@@ -1,4 +1,12 @@
 {
+    "name": "plaksindv/minesweeper-php-js",
+    "description": "This is minesweeper game",
+    "authors": [
+        {
+            "name": "plaksindv",
+            "email": "dmitriy.plaksin@yandex.ru"
+        }
+    ],
     "require": {
         "slim/slim": "^4.7",
         "slim/psr7": "^1.3",
