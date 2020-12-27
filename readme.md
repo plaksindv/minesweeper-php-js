@@ -18,10 +18,16 @@
     * `Показать игру`. Повтор игры с идентификатором id.
 
 ### Требования
-* Браузер, поддерживающий ECMAScript 6
+* Браузер, поддерживающий ECMAScript 6 и JSON
+* Минимальная версия Composer: 1.9.3
 * Минимальная версия PHP: 7.4.10
 * Минимальная версия SQLite3: 3.31.1
 
 
-Инструкция по запуску игры:
-Склонировать проект на локальную машину
+Инструкция по установке и запуску игры Из Github:
+Склонировать проект на локальную машину; Установить composer, если он не установлен; Перейти в корневой каталог; Выполнить в консоли команды composer update и php -S localhost:3000 -t public; В браузере перейти на страницу http://localhost:3000/index.html или http://localhost:3000  
+Из Packagist:
+Установить composer, если он не установлен; Перейти в каталог, в который вы будете клонировать проект; Выполнить команду composer require plaksindv/minesweeper-php-js; Выполнить в консоли команду php -S localhost:3000 -t public; В браузере перейти на страницу http://localhost:3000/index.html или http://localhost:3000
+Ссылки Packagist: https://packagist.org/packages/plaksindv/minesweeper-php-js
+
+
